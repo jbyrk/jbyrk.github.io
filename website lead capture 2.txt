@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acre Plus Properties - Find Your Dream Property</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Acre Plus Properties</h1>
+        <p>Find Your Perfect Arizona Property</p>
+    </header>
+    
+    <section id="lead-capture">
+        <h2>Get More Info on Available Properties</h2>
+        <form id="leadForm" accept-charset="UTF-8">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <textarea name="message" placeholder="Tell us what you're looking for"></textarea>
+            <button type="submit">Request Info</button>
+        </form>
+        <p id="formResponse"></p>
+    </section>
+    
+    <footer>
+        <p>© 2025 Acre Plus Properties | All Rights Reserved</p>
+        <p>Brokered by [Your Brokerage Name] | <a href="mailto:info@acreplusproperties.com">info@acreplusproperties.com</a></p>
+        <p><small>Arizona Department of Real Estate (ADRE) requires all real estate advertising to be truthful and not misleading. All properties are subject to availability and final verification.</small></p>
+    </footer>
+    
+    <script>
+        document.getElementById('leadForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            document.getElementById('formResponse').textContent = 'Thank you! We will contact you shortly.';
+            this.reset();
+        });
+    </script>
+</body>
+</html>
+
