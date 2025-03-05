@@ -1,0 +1,128 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center/cover; /* Replace with your image URL */
+    text-align: center;
+    padding: 50px 20px;
+    color: #fff;
+    background-color: #2c3e50; /* Fallback color */
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.subheadline {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.broker-info {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* Form Section */
+.form-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+}
+
+.form-section label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.privacy {
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.submit-button {
+    padding: 12px 25px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #2980b9;
+}
+
+/* Trust Section */
+.trust {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.trust h2 {
+    margin-bottom: 20px;
+}
+
+.trust p {
+    margin: 10px 0;
+}
+
+/* Value Section */
+.value {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.value h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 5px 0;
+}

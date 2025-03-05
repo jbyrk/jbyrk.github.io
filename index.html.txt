@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Property Report | Acreplus Properties</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Discover Your Property’s Value in Minutes</h1>
+        <p class="subheadline">Free Market Report – Serving Arizona with Expert Real Estate Solutions</p>
+        <p class="broker-info">Brought to you by Acreplus Properties Realty, Licensed in Arizona</p>
+        <a href="#lead-form" class="cta-button">Get Your Free Report Now</a>
+    </header>
+
+    <!-- Lead Capture Form -->
+    <section id="lead-form" class="form-section">
+        <h2>Get Your Free Report</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number (Optional):</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <label for="address">Property Address (Optional):</label>
+            <input type="text" id="address" name="address">
+            
+            <p class="privacy">Your information will only be used to provide your report and real estate updates. We respect your privacy.</p>
+            <button type="submit" class="submit-button">Get My Report</button>
+        </form>
+    </section>
+
+    <!-- Trust Elements -->
+    <section class="trust">
+        <h2>Why Choose Us?</h2>
+        <p>“Acreplus Properties helped us find our dream home!” – John D., Phoenix</p>
+        <p>Acreplus Properties Realty, AZ License #XXXXX</p>
+        <p>We are an Equal Housing Opportunity provider.</p>
+    </section>
+
+    <!-- Value Proposition -->
+    <section class="value">
+        <h2>Stay Ahead in Arizona Real Estate</h2>
+        <p>Whether you’re buying, selling, or just curious, Acreplus Properties provides personalized insights to help you succeed in the Arizona market.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact Us: (555) 123-4567 | info@acreplusproperties.com | 123 Main St, Phoenix, AZ 85001</p>
+        <p>All real estate services provided by Acreplus Properties Realty, a licensed Arizona real estate brokerage. Information subject to change.</p>
+        <p>© 2025 Acreplus Properties Realty. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
